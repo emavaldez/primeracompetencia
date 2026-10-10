@@ -1,0 +1,9 @@
+# Versiones con las que se hizo la entrega. Python 3.14.4 (CPython) en macOS 27.0.1, Apple M5 Max (arm64).
+# LightGBM es la rueda de PyPI (usa libomp; en esta Mac, libomp 23.1.2 de Homebrew). narwhals y scipy son dependencias de
+# LightGBM: se fijan para que una instalación nueva reciba las mismas.
+lightgbm==4.7.0
+pandas==3.0.5
+numpy==2.5.2
+pyarrow==25.0.1
+narwhals==2.25.0
+scipy==1.18.1
